@@ -19,6 +19,39 @@ This project simplifies the process of converting Excel tables to Jira markup la
 1. Ensure you have Python 3.9 or later installed.
 2. Docker installed if you intend to use the Docker setup.
 
+### To set up and run this project locally python setup, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/PKHarsimran/JiraTablify.git
+   cd JiraTablify
+   ```
+2. **Create a Virtual Environment (Optional but Recommended):**
+It's a good practice to use a virtual environment to isolate your project dependencies.
+
+   ```bash
+   python -m venv venv  # Create a virtual environment
+   source venv/bin/activate  # Activate the virtual environment (Linux/Mac)
+   # or
+   .\venv\Scripts\activate  # Activate the virtual environment (Windows)
+   ```
+3. **Install Dependencies:**
+Use pip to install the required Python packages from the requirements.txt file.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+4. **Run the Application:**
+Start the Flask application.
+   
+   ```bash
+   python convert_to_jira.py
+   ```
+5. **Access the Application:**
+Open a web browser and navigate to http://localhost:8081 to use the application locally.
+
 ### Using Docker:
 
 1. Clone the repository:
