@@ -18,19 +18,35 @@ This project simplifies the process of converting Excel tables to Jira markup la
 1. Ensure you have Python 3.9 or later installed.
 2. Docker installed if you intend to use the Docker setup.
 
-### Running the Application
+### Using Docker:
 
-#### Local Setup
+1. Clone the repository:
+   \```bash
+   git clone https://github.com/[YourUsername]/JiraTableMaster.git
+   \```
+2. Navigate to the project directory:
+   \```bash
+   cd JiraTableMaster
+   \```
+3. Build the Docker image:
+   \```bash
+   docker build -t jiratablemaster .
+   \```
+4. Run the Docker container:
+   \```bash
+   docker run -p 8081:8081 jiratablemaster
+   \```
 
-```bash
-# Clone the repository
-git clone https://github.com/your_username/JiraTableMaster.git
+Visit `http://localhost:8081` in your browser to access the converter!
 
-# Navigate to the project directory
-cd JiraTableMaster
+## Contribution 🤝
 
-# Install the dependencies
-pip install -r requirements.txt
+Your contributions are always welcome! To contribute:
 
-# Run the Flask app
-python convert_to_jira.py
+1. Fork the project.
+2. Create a new branch.
+3. Make your changes and write tests when practical.
+4. Commit your changes to the new branch.
+5. Push your changes, and submit a pull request to the main branch.
+
+For major changes, please open an issue first to discuss what you'd like to change or add.
