@@ -43,8 +43,7 @@ Visit `http://localhost:8081` in your browser to access the converter!
 
 You can find the Docker image for this project on Docker Hub:
 
-[Docker Hub - pkvirus/jiratablify](https://hub.docker.com/r/pkvirus/jiratablify/tags)
-
+[![Docker Hub](https://img.shields.io/docker/pulls/pkvirus/jiratablify.svg)](https://hub.docker.com/r/pkvirus/jiratablify)
 
 ## Contribution 🤝
 
