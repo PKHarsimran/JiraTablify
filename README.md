@@ -21,21 +21,21 @@ This project simplifies the process of converting Excel tables to Jira markup la
 ### Using Docker:
 
 1. Clone the repository:
-   \```bash
+   ```bash
    git clone https://github.com/PKHarsimran/JiraTablify.git
-   \```
+   ```
 2. Navigate to the project directory:
-   \```bash
+   ```bash
    cd JiraTableMaster
-   \```
+   ```
 3. Build the Docker image:
-   \```bash
+   ```bash
    docker build -t jiratablemaster .
-   \```
+   ```
 4. Run the Docker container:
-   \```bash
+   ```bash
    docker run -p 8081:8081 jiratablemaster
-   \```
+   ```
 
 Visit `http://localhost:8081` in your browser to access the converter!
 
