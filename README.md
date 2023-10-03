@@ -22,7 +22,7 @@ This project simplifies the process of converting Excel tables to Jira markup la
 
 1. Clone the repository:
    \```bash
-   git clone https://github.com/[YourUsername]/JiraTableMaster.git
+   git clone https://github.com/PKHarsimran/JiraTablify.git
    \```
 2. Navigate to the project directory:
    \```bash
